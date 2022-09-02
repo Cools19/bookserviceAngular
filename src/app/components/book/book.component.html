@@ -1,0 +1,82 @@
+<p>book works!</p>
+
+<form>
+    <div class="row mb-3">
+      <label for="title"
+      class="col-sm-2 col-form-label" >title</label>
+      <div class="col-sm-10">
+        <input type="text"  [(ngModel)]= book.title name="bktitle" class="form-control" id="title">
+      </div>
+      <div>
+      <div class="row mb-3">
+        <label for="category"
+         class="col-sm-2 col-form-label" >category</label>
+        <div class="col-sm-10">
+          <input type="text" [(ngModel)]= book.category name="bkcategory" class="form-control" id="category">
+        </div>
+      </div>
+  
+      <div>
+        <div class="row mb-3">
+          <label for="image" 
+          class="col-sm-2 col-form-label" >image</label>
+          <div class="col-sm-10">
+            <input type="image"[(ngModel)]= book.image name="bkimage"  class="form-control" id="image">
+          </div>
+        </div>
+  
+        <div>
+          <div class="row mb-3">
+            <label for="price" class="col-sm-2 col-form-label"
+            > price</label>
+            <div class="col-sm-10">
+              <input type="text" [(ngModel)]= book.price name="bkprice" class="form-control" id="price">
+            </div>
+          </div>
+  
+          <div>
+            <div class="row mb-3">
+              <label for="publisher " class="col-sm-2 col-form-label" >publisher</label>
+              <div class="col-sm-10">
+                <input type="text" [(ngModel)]= book.publisher  name="bkpublisher" class="form-control" id="publisher">
+              </div>
+            </div>
+  
+            <div>
+              <div class="row mb-3">
+                <label for="active" class="col-sm-2 col-form-label" >active</label>
+                <div class="col-sm-10">
+                  <input type="text" [(ngModel)]= book.active name="bkactive" class="form-control" id="active">
+                </div>
+              </div>
+  
+              <div>
+                <div class="row mb-3">
+                  <label for="content" class="col-sm-2 col-form-label" >content</label>
+                  <div class="col-sm-10">
+                    <input type="text" [(ngModel)]= book.content  name="bkcontent" class="form-control" id="content">
+                  </div>
+                </div>
+     
+        
+        
+    <button type="submit" (click)="save()" class="btn btn-primary">Save</button>
+  
+    <!-- <ol class="list-group list-group-numbered">
+      <li *ngFor="let u of users" class="list-group-item">
+        <span>{{u.title}}</span>
+        <br>
+        <span>{{u.category}}</span>
+        <br>
+        <span>{{u.image}}</span>
+        <br>
+        <span>{{u.price}}</span>
+        <br>
+        <span>{{u.publisher}}</span>
+        <br>
+        <span>{{u.active}}</span>
+        <br>
+        <span>{{u.content}}</span>
+        <br>
+    </li>
+    </ol> -->

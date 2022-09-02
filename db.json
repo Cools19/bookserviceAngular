@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "title": " the Rama",
+      "category": "god",
+      "image": "no given",
+      "price": 500,
+      "publisher": "the lord",
+      "active": " yes",
+      "content": "About god",
+      "id": 1
+    },
+    {
+      "title": "jksj",
+      "category": "gjhj",
+      "image": "",
+      "price": null,
+      "publisher": "hgjhgj",
+      "active": "hujhuj",
+      "content": "uyuyu",
+      "id": 2
+    },
+    {
+      "title": "hallow",
+      "category": "cartoon",
+      "image": "",
+      "price": 40,
+      "publisher": "pilai",
+      "active": "yes",
+      "content": "enteetainment",
+      "id": 3
+    }
+  ]
+}
